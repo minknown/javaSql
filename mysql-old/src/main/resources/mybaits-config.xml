@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <package name="com.mayizt.pojo"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://bdm291915593.my3w.com:3306/bdm291915593_db"/>
+                <property name="username" value="bdm291915593"/>
+                <property name="password" value="password"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="com/mayizt/mapper/UserMapper.xml"/>
+        <mapper resource="com/mayizt/mapper/JmMapper.xml"/>
+    </mappers>
+
+
+</configuration>

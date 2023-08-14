@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bdm291915593_db@bdm291915593.my3w.com [3]" uuid="8b01a451-5829-4904-8595-a4e387c7cab7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://bdm291915593.my3w.com:3306/bdm291915593_db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <time-zone>Asia/Shanghai</time-zone>
+    </data-source>
+  </component>
+</project>
